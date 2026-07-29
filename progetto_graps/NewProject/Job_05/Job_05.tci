@@ -1,0 +1,3 @@
+COMMAND OBJECT spherical_cut get_field ( source :  &
+sequence(ref(tabulated_pattern))) 
+QUIT 

@@ -1,0 +1,59 @@
+ Tci file: simulazione_37Ghz.tci
+ Out file: simulazione_37Ghz.out
+ Log file: simulazione_37Ghz.log
+ 
+ 
+ TICRA Tools 25.0 for Windows
+ 
+ 
+ TICRA Tools found   8 CPU threads
+ Enabled products: GRASP
+ 
+ ----- TASK No. 1 -----     Started at 16:06:26 on May 22, 2026
+ 
+ po_single_face_scatterer_sec get_currents ( source :
+ sequence(ref(tabulated_pattern)), auto_convergence_of_po : on,
+ convergence_on_scatterer : sequence(ref(reflector_prim)))
+ 
+  PO1 =        10 PO2 =        10 Face =     1,    Performing PO convergence test 
+  The input field is a far field
+   expansion in spherical modes:       completed 
+ 
+  PO1 =        33 PO2 =        73 Face =     1,    Final PO-values from auto-convergence 
+  PTD =        70                 Edge =     1,    Final PTD-values from auto-convergence 
+ 
+  Calculating currents.
+  No. of PO-points (target):               1658                      
+  No. of PTD points (target):                70                      
+                                                                     
+ Total task time:  0.36 sec
+ 
+ ----- TASK No. 2 -----     Started at 16:06:26 on May 22, 2026
+ 
+ po_single_face_scatterer_prim get_currents ( source :
+ sequence(ref(po_single_face_scatterer_sec)), auto_convergence_of_po : on,
+ convergence_on_output_grid : sequence(ref(spherical_cut)))
+ 
+  PO1 =       185 PO2 =       590 Face =     1,    Final PO-values from auto-convergence 
+  PTD =         0                 Edge =     1,    Final PTD-values from auto-convergence 
+ 
+  Calculating currents.
+  No. of PO-points (target):              70199                      
+  No. of PO points (source):               1658                      
+  No. of PTD points (source):                70                      
+                                                                     
+ Total task time:  1.40 sec
+ 
+ ----- TASK No. 3 -----     Started at 16:06:28 on May 22, 2026
+ 
+ spherical_cut get_field ( source :
+ sequence(ref(po_single_face_scatterer_prim)))
+ 
+  No. of field points:                    18005                      
+  No. of PO points (source):              70199                      
+                                                                     
+ Total task time:  3.73 sec
+ 
+ ----- END OF TASKS -----     Completed at 16:06:31 on May 22, 2026
+ 
+ Total time was 7.44 sec

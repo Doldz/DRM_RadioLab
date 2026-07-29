@@ -1,0 +1,11 @@
+COMMAND OBJECT po_single_face_scatterer_sec get_currents ( source :  &
+sequence(ref(tabulated_pattern)), auto_convergence_of_po : on,  &
+convergence_on_scatterer : sequence(ref(reflector_sec))) 
+COMMAND OBJECT po_single_face_scatterer_prim get_currents ( source :  &
+sequence(ref(po_single_face_scatterer_sec)), auto_convergence_of_po : on,  &
+convergence_on_scatterer : sequence(ref(reflector_prim))) 
+COMMAND OBJECT spherical_cut get_field ( source :  &
+sequence(ref(po_single_face_scatterer_prim))) 
+COMMAND OBJECT spherical_cut add_field ( source :  &
+sequence(ref(tabulated_pattern))) 
+QUIT 

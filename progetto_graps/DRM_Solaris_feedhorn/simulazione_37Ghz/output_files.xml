@@ -1,0 +1,13 @@
+<OutputFiles>
+ <File Type="tci" Format="Text" Object="unknown" Path="simulazione_37Ghz.tci" FileOperation="Copy" SubObject="unknown"/>
+ <File Type="tor" Format="Text" Object="unknown" Path="simulazione_37Ghz.tor" FileOperation="Copy" SubObject="unknown"/>
+ <File Type="out" Format="Text" Object="unknown" Path="simulazione_37Ghz.out" FileOperation="Copy" SubObject="unknown"/>
+ <File Type="Cut:Spherical" Quantity="E" Format="Ticra" Object="spherical_cut" Path="spherical_cut.cut" FileOperation="Copy" SubObject="unknown">
+  <Parameter Name="Frequency" Unit="GHz" Values=" 37.0000000000000"/>
+  <Parameter Name="Phi" Unit="deg" Values="[0.000000000000000E+000;90.0000000000000;5]"/>
+  <Parameter Name="Theta" Unit="deg" Values="[-180.000000000000;180.000000000000;3601]"/>
+  <Scan Type="polar"/>
+ </File>
+ <File Type="Comments" Format="Text" Path="comments.txt"/>
+ <File Type="Screen" Format="Text" Path="screenoutput.txt"/>
+</OutputFiles>

@@ -1,0 +1,184 @@
+principale  coor_sys  
+(
+)
+ 
+primario  coor_sys  
+(
+  base             : ref(principale)
+)
+ 
+secondario  coor_sys  
+(
+  origin           : struct(x: 0.0 mm, y: 0.0 m, z: 1516.0 mm),
+  y_axis           : struct(x: 0.0, y: -1.0, z: 0.0),
+  base             : ref(principale)
+)
+ 
+focus  coor_sys  
+(
+  origin           : struct(x: 0.0 m, y: 0.0 m, z: 682.0 mm),
+  base             : ref(primario)
+)
+ 
+frequency  frequency  
+(
+  frequency_list   : sequence(30.0 GHz)
+)
+ 
+gaussian_beam_pattern  gaussian_beam_pattern  
+(
+  frequency        : ref(frequency),
+  coor_sys         : ref(focus),
+  taper_angle      : 12.0,
+  taper            : -3.0
+)
+ 
+paraboloid  paraboloid  
+(
+  focal_length     : 1515.0 mm,
+  vertex           : struct(x: 0.0 mm, y: 0.0 mm, z: 0.0 m)
+)
+ 
+elliptical_rim_prim  elliptical_rim  
+(
+  half_axis        : struct(x: 736.5 mm, y: 736.5 mm)
+)
+ 
+reflector_prim  reflector  
+(
+  coor_sys         : ref(primario),
+  surfaces         : sequence(ref(paraboloid)),
+  rim              : ref(elliptical_rim_prim)
+)
+ 
+hyperboloid  hyperboloid  
+(
+  vertex_distance  : 294.0 mm,
+  foci_distance    : 880.0 mm
+)
+ 
+elliptical_rim_sec  elliptical_rim  
+(
+  half_axis        : struct(x: 148.0 mm, y: 148.0 mm)
+)
+ 
+reflector_sec  reflector  
+(
+  coor_sys         : ref(secondario),
+  surfaces         : sequence(ref(hyperboloid)),
+  rim              : ref(elliptical_rim_sec)
+)
+ 
+planewave  coor_sys  
+(
+  origin           : struct(x: 0.0 m, y: 0.0 m, z: 6.0 m),
+  y_axis           : struct(x: 0.0, y: -1.0, z: 0.0),
+  base             : ref(principale)
+)
+ 
+field  coor_sys  
+(
+  y_axis           : struct(x: 0.0, y: -1.0, z: 0.0),
+  base             : ref(planewave)
+)
+ 
+po_single_face_scatterer_prim  po_single_face_scatterer  
+(
+  frequency        : ref(frequency_37),
+  scatterer        : ref(reflector_prim)
+)
+ 
+po_single_face_scatterer_sec  po_single_face_scatterer  
+(
+  frequency        : ref(frequency_37),
+  scatterer        : ref(reflector_sec)
+)
+ 
+spherical_cut  spherical_cut  
+(
+  coor_sys         : ref(field),
+  theta_range      : struct(start: -180.0, end: 180.0, np: 3601),
+  phi_range        : struct(start: 0.0, end: 90.0, np: 5),
+  frequency        : ref(frequency_37)
+)
+ 
+plane_wave  plane_wave  
+(
+  frequency        : ref(frequency),
+  coor_sys         : ref(planewave),
+  aperture_radius  : 736.0 mm
+)
+ 
+infinito  coor_sys  
+(
+  y_axis           : struct(x: 0.0, y: -1.0, z: 0.0),
+  base             : ref(field)
+)
+ 
+tabulated_pattern  tabulated_pattern  
+(
+  frequency        : ref(frequency_37),
+  coor_sys         : ref(real_focus),
+  file_name        : spherical_cut_37.cut,
+  number_of_cuts   : 16
+)
+ 
+real_focus  coor_sys  
+(
+  origin           : struct(x: 0.0 mm, y: 0.0 mm, z: 640.0 mm),
+  base             : ref(principale)
+)
+ 
+frequency_23  frequency  
+(
+  frequency_list   : sequence(23.0 GHz)
+)
+ 
+frequency_37  frequency  
+(
+  frequency_list   : sequence(37.0 GHz)
+)
+ 
+//DO NOT MODIFY OBJECTS BELOW THIS LINE.
+//THESE OBJECTS ARE CREATED AND MANAGED BY THE
+//GRAPHICAL USER INTERFACE AND SHOULD NOT BE
+//MODIFIED MANUALLY!
+view_1  view  
+(
+  objects          : sequence(ref(coor_sys_plot_for_view_1),ref(feed_plot_for_view_1),
+ref(reflector_plot_for_view_1),ref(output_points_plot_for_view_1),ref(plane_wave_plot_for_view_1),
+ref(rays_from_plane_waves)),
+  hidden_objects   : sequence(ref(gaussian_beam_pattern))
+)
+ 
+coor_sys_plot_for_view_1  coor_sys_plot  
+(
+)
+ 
+feed_plot_for_view_1  feed_plot  
+(
+  surface_colour   : struct(r: 0.72156862745098, g: 0.450980392156863, b: 0.2)
+)
+ 
+reflector_plot_for_view_1  reflector_plot  
+(
+  surface_colour   : struct(r: 0.72156862745098, g: 0.450980392156863, b: 0.2)
+)
+ 
+output_points_plot_for_view_1  output_points_plot  
+(
+)
+ 
+plane_wave_plot_for_view_1  plane_wave_plot  
+(
+)
+ 
+rays_from_plane_waves  rays_from_plane_waves  
+(
+  rho_range        : struct(start: 149.0 mm, end: 368.0 mm, np: 6),
+  phi_range        : struct(start: 0.0, end: 360.0, np: 4),
+  ray_path_range   : struct(start: 0.0 m, end: 8.0 m)
+)
+ 
+ //$$ Saved at 16:07:56 on 22.05.2026 by TICRA Tools 25.0 SN=012045
+  

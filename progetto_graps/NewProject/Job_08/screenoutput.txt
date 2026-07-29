@@ -1,0 +1,23 @@
+ Tci file: Job_08.tci
+ Out file: Job_08.out
+ Log file: Job_08.log
+ 
+ 
+ TICRA Tools 25.0 for Windows
+ 
+ 
+ TICRA Tools found   8 CPU threads
+ Enabled products: GRASP
+ 
+ ----- TASK No. 1 -----     Started at 14:23:03 on May 22, 2026
+ 
+ spherical_cut get_field ( source : sequence(ref(tabulated_pattern)))
+ 
+  No. of field points:                      543                      
+ Estimated task time:  0.00 sec, Estimated remaining time:  0.00 sec 
+ ERROR: File line #0: The following file can not be opened: spherical_cut.cut
+ 
+ 
+ ----- END OF TASKS -----     Completed at 14:23:03 on May 22, 2026
+ 
+ Total time was 1.91 sec

@@ -1,0 +1,23 @@
+ Tci file: Job_02.tci
+ Out file: Job_02.out
+ Log file: Job_02.log
+ 
+ 
+ TICRA Tools 25.0 for Windows
+ 
+ 
+ TICRA Tools found   8 CPU threads
+ Enabled products: GRASP
+ 
+ ----- TASK No. 1 -----     Started at 13:51:30 on May 22, 2026
+ 
+ spherical_cut get_field ( source : sequence(ref(tabulated_pattern)))
+ 
+  No. of field points:                      543                      
+ Estimated task time:  0.00 sec, Estimated remaining time:  0.00 sec 
+ ERROR: File line #0: The following file can not be found: spherical_cut_36.cut
+ 
+ 
+ ----- END OF TASKS -----     Completed at 13:51:30 on May 22, 2026
+ 
+ Total time was 1.94 sec

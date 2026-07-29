@@ -1,0 +1,26 @@
+ Program started at 14:40:26 on 22 May 2026
+ 
+ TICRA Tools 25.0 for Windows
+ 
+ TICRA Tools found   8 CPU threads
+ 
+TICRA-TOOLS>COMMAND OBJECT spherical_cut get_field ( source :   sequence(ref(tabulated_pattern))) 
+ ----- TASK No. 1 -----     Started at 14:40:27 on May 22, 2026
+WARNING: 
+The number of theta cuts in one set of the file is different from the number_of_cuts attribute 
+The input attribute number_of_cuts value is used instead 
+- 
+ 
+ERROR: File line #724: 
+Error in reading the data file named: 
+spherical_cut_36.cut 
+The error is found in line number: 724 
+The line is incorrect or a wrong data file name is specified 
+Action : Correct the data file name or contents 
+ 
+ ----- END OF TASKS -----     Completed at 14:40:27 on May 22, 2026
+INFO: 1 WARNING ENCOUNTERED. 
+ 
+ 
+ Total time was 1.94 sec
+ Program stopped at 14:40:27 on 22 May 2026

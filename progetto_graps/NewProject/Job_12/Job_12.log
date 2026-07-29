@@ -1,0 +1,14 @@
+ Program started at 14:39:37 on 22 May 2026
+ 
+ TICRA Tools 25.0 for Windows
+ 
+ TICRA Tools found   8 CPU threads
+ 
+TICRA-TOOLS>COMMAND OBJECT spherical_cut get_field ( source :   sequence(ref(tabulated_pattern))) 
+ ----- TASK No. 1 -----     Started at 14:39:39 on May 22, 2026
+ERROR: Message from object tabulated_pattern: 
+For a symmetric cut definition the number of cuts must be larger than 1 
+ 
+ ----- END OF TASKS -----     Completed at 14:39:39 on May 22, 2026
+ Total time was 1.96 sec
+ Program stopped at 14:39:39 on 22 May 2026

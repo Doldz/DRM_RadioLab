@@ -1,0 +1,15 @@
+<OutputFiles>
+ <File SubObject="unknown" Format="Text" Path="Job_02.tci" FileOperation="Copy" Type="tci" Object="unknown"/>
+ <File SubObject="unknown" Format="Text" Path="Job_02.tor" FileOperation="Copy" Type="tor" Object="unknown"/>
+ <File SubObject="unknown" Format="Text" Path="Job_02.out" FileOperation="Copy" Type="out" Object="unknown"/>
+ <File SubObject="unknown" Format="Text" Path="po_single_face_scatterer_sec_spill_over_data_faces.fmt" FileOperation="Copy" Type="spill_over_data" Object="po_single_face_scatterer_sec"/>
+ <File SubObject="unknown" Format="Text" Path="po_single_face_scatterer_prim_spill_over_data_faces.fmt" FileOperation="Copy" Type="spill_over_data" Object="po_single_face_scatterer_prim"/>
+ <File SubObject="unknown" Format="Ticra" Path="spherical_cut.cut" FileOperation="Copy" Type="Cut:Spherical" Object="spherical_cut" Quantity="E">
+  <Parameter Values=" 30.0000000000000" Name="Frequency" Unit="GHz"/>
+  <Parameter Values="[0.000000000000000E+000;90.0000000000000;8]" Name="Phi" Unit="deg"/>
+  <Parameter Values="[-180.000000000000;180.000000000000;3601]" Name="Theta" Unit="deg"/>
+  <Scan Type="polar"/>
+ </File>
+ <File Format="Text" Path="comments.txt" Type="Comments"/>
+ <File Format="Text" Path="screenoutput.txt" Type="Screen"/>
+</OutputFiles>

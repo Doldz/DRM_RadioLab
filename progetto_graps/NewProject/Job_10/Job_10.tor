@@ -1,0 +1,54 @@
+origine  coor_sys  
+(
+)
+ 
+frequency  frequency  
+(
+  frequency_list   : sequence(36.0 GHz)
+)
+ 
+tabulated_pattern  tabulated_pattern  
+(
+  frequency        : ref(frequency),
+  coor_sys         : ref(origine),
+  file_name        : spherical_cut.cut,
+  number_of_cuts   : 1
+)
+ 
+field  coor_sys  
+(
+  origin           : struct(x: 0.0 mm, y: 0.0 mm, z: 6.0 m)
+)
+ 
+spherical_cut  spherical_cut  
+(
+  coor_sys         : ref(field),
+  theta_range      : struct(start: -90.0, end: 90.0, np: 181),
+  phi_range        : struct(start: 0.0, end: 90.0, np: 3)
+)
+ 
+//DO NOT MODIFY OBJECTS BELOW THIS LINE.
+//THESE OBJECTS ARE CREATED AND MANAGED BY THE
+//GRAPHICAL USER INTERFACE AND SHOULD NOT BE
+//MODIFIED MANUALLY!
+view_1  view  
+(
+  objects          : sequence(ref(coor_sys_plot_for_view_1),ref(feed_plot_for_view_1),
+ref(output_points_plot_for_view_1))
+)
+ 
+coor_sys_plot_for_view_1  coor_sys_plot  
+(
+)
+ 
+feed_plot_for_view_1  feed_plot  
+(
+  surface_colour   : struct(r: 0.72156862745098, g: 0.450980392156863, b: 0.2)
+)
+ 
+output_points_plot_for_view_1  output_points_plot  
+(
+)
+ 
+ //$$ Saved at 14:26:01 on 22.05.2026 by TICRA Tools 25.0 SN=012045
+  

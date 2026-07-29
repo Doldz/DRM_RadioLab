@@ -1,0 +1,28 @@
+ Program started at 15:06:13 on  8 May 2026
+ 
+ TICRA Tools SE 24.0 for Mac OS
+ 
+ (Student edition limited to 1 CPU thread)
+ 
+TICRA-TOOLS-SE>COMMAND OBJECT po_single_face_scatterer_sec get_currents ( source :   sequence(ref(gaussian_beam_pattern))) 
+ ----- TASK No. 1 -----     Started at 15:06:13 on May  8, 2026
+  PO1 =        36 PO2 =       108 Face =     1,    Final PO-values from auto-convergence
+  PTD =       105                 Edge =     1,    Final PTD-values from auto-convergence
+  Spillover: 1.7928 dB
+ Total task time:  0.48 sec
+TICRA-TOOLS-SE>COMMAND OBJECT po_single_face_scatterer_prim get_currents ( source :   sequence(ref(po_single_face_scatterer_sec))) 
+ ----- TASK No. 2 -----     Started at 15:06:14 on May  8, 2026
+  PO1 =       153 PO2 =       480 Face =     1,    Final PO-values from auto-convergence
+  PTD =       480                 Edge =     1,    Final PTD-values from auto-convergence
+  Spillover: 2.0514 dB
+ Total task time: 22.98 sec
+TICRA-TOOLS-SE>COMMAND OBJECT spherical_cut get_field ( source :   sequence(ref(po_single_face_scatterer_prim))) 
+ ----- TASK No. 3 -----     Started at 15:06:37 on May  8, 2026
+ Total task time: 34.22 sec
+TICRA-TOOLS-SE>COMMAND OBJECT spherical_cut add_field ( source :   sequence(ref(gaussian_beam_pattern))) 
+ ----- TASK No. 4 -----     Started at 15:07:11 on May  8, 2026
+ Total task time:  0.07 sec
+TICRA-TOOLS-SE>QUIT 
+ ----- END OF TASKS -----     Completed at 15:07:11 on May  8, 2026
+ Total time was 58.28 sec
+ Program stopped at 15:07:11 on  8 May 2026

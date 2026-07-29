@@ -1,0 +1,9 @@
+COMMAND OBJECT po_single_face_scatterer_sec get_currents ( source :  &
+sequence(ref(gaussian_beam_pattern))) 
+COMMAND OBJECT po_single_face_scatterer_prim get_currents ( source :  &
+sequence(ref(po_single_face_scatterer_sec))) 
+COMMAND OBJECT spherical_cut get_field ( source :  &
+sequence(ref(po_single_face_scatterer_prim))) 
+COMMAND OBJECT spherical_cut add_field ( source :  &
+sequence(ref(gaussian_beam_pattern))) 
+QUIT 

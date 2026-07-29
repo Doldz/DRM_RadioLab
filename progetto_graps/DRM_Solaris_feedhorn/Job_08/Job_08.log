@@ -1,0 +1,48 @@
+ Program started at 15:19:43 on 22 May 2026
+ 
+ TICRA Tools 25.0 for Windows
+ 
+ TICRA Tools found   8 CPU threads
+ 
+TICRA-TOOLS>COMMAND OBJECT po_single_face_scatterer_sec get_currents ( source :   sequence(ref(tabulated_pattern)), auto_convergence_of_po : on,   convergence_on_scatterer : sequence(ref(reflector_prim))) 
+ ----- TASK No. 1 -----     Started at 15:19:45 on May 22, 2026
+WARNING: Message from object tabulated_pattern: 
+------- 
+The field is expanded in spherical modes with maximum mode index N 
+A near-field distance, r, smaller than N/k has been requested 
+r*k =   340.159     < NMAX = 360 
+Modes larger than r*k will not be used 
+and the near-field may be wrong 
+The warning will only be typed once 
+ 
+  PO1 =        28 PO2 =        62 Face =     1,    Final PO-values from auto-convergence
+  PTD =        59                 Edge =     1,    Final PTD-values from auto-convergence
+ Total task time:  0.33 sec
+TICRA-TOOLS>COMMAND OBJECT po_single_face_scatterer_prim get_currents ( source :   sequence(ref(po_single_face_scatterer_sec)), auto_convergence_of_po : on,   convergence_on_output_grid : sequence(ref(spherical_cut))) 
+ ----- TASK No. 2 -----     Started at 15:19:45 on May 22, 2026
+  PO1 =       153 PO2 =       480 Face =     1,    Final PO-values from auto-convergence
+  PTD =         0                 Edge =     1,    Final PTD-values from auto-convergence
+ Total task time:  0.86 sec
+TICRA-TOOLS>COMMAND OBJECT spherical_cut get_field ( source :   sequence(ref(po_single_face_scatterer_prim))) 
+ ----- TASK No. 3 -----     Started at 15:19:46 on May 22, 2026
+ Total task time:  2.34 sec
+TICRA-TOOLS>COMMAND OBJECT spherical_cut add_field ( source :   sequence(ref(tabulated_pattern))) 
+ ----- TASK No. 4 -----     Started at 15:19:48 on May 22, 2026
+ Total task time:  1.68 sec
+TICRA-TOOLS>QUIT 
+ ----- END OF TASKS -----     Completed at 15:19:50 on May 22, 2026
+INFO: 1 WARNING ENCOUNTERED. 
+ 
+WARNING NO. 1 
+Message from object tabulated_pattern: 
+------- 
+The field is expanded in spherical modes with maximum mode index N 
+A near-field distance, r, smaller than N/k has been requested 
+r*k =   340.159     < NMAX = 360 
+Modes larger than r*k will not be used 
+and the near-field may be wrong 
+The warning will only be typed once 
+ 
+ 
+ Total time was 7.09 sec
+ Program stopped at 15:19:50 on 22 May 2026

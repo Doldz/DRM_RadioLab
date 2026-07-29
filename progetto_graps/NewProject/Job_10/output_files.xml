@@ -1,0 +1,7 @@
+<OutputFiles>
+ <File Type="tci" Format="Text" Object="unknown" Path="Job_10.tci" FileOperation="Copy" SubObject="unknown"/>
+ <File Type="tor" Format="Text" Object="unknown" Path="Job_10.tor" FileOperation="Copy" SubObject="unknown"/>
+ <File Type="out" Format="Text" Object="unknown" Path="Job_10.out" FileOperation="Copy" SubObject="unknown"/>
+ <File Type="Comments" Format="Text" Path="comments.txt"/>
+ <File Type="Screen" Format="Text" Path="screenoutput.txt"/>
+</OutputFiles>

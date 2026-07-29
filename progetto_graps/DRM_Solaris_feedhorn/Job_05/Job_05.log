@@ -1,0 +1,18 @@
+ Program started at 15:09:38 on 22 May 2026
+ 
+ TICRA Tools 25.0 for Windows
+ 
+ TICRA Tools found   8 CPU threads
+ 
+TICRA-TOOLS>COMMAND OBJECT po_single_face_scatterer_sec get_currents ( source :   sequence(ref(tabulated_pattern)), auto_convergence_of_po : on,   convergence_on_scatterer : sequence(ref(reflector_sec))) 
+ ----- TASK No. 1 -----     Started at 15:09:39 on May 22, 2026
+ERROR: Message from object po_single_face_scatterer_sec: 
+convergence_on_scatterer cannot reference the same scatterer as the PO object itself. 
+ 
+ERROR: Message from object po_single_face_scatterer_sec: 
+The 'get_currents' command failed due to errors. 
+ 
+ Total task time:  0.00 sec
+ ----- END OF TASKS -----     Completed at 15:09:39 on May 22, 2026
+ Total time was 1.80 sec
+ Program stopped at 15:09:39 on 22 May 2026

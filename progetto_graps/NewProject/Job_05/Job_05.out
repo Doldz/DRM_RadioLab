@@ -1,0 +1,203 @@
+ Program started at 14:10:34 on 22 May 2026
+ 
+ 
+ 
+                                     T I C R A   T o o l s
+                                     =====================
+ 
+  Antenna design software from TICRA
+ 
+ TICRA Tools 25.0 for Windows
+ 
+ 
+ TICRA Tools found   8 CPU threads
+ 
+ Enabled products: GRASP
+  Reading tor-file: Job_05.tor
+ 
+ 
+  *** Object name:  origine
+  *** Class name :  coor_sys
+  *** Message    :  Object created
+ 
+ 
+ 
+  *** Object name:  origine
+  *** Class name :  coor_sys
+  *** Message    :  New values in object
+ 
+  Z_axis :     0.000000    0.000000    1.000000
+ 
+ 
+  *** Object name:  frequency
+  *** Class name :  frequency
+  *** Message    :  Object created
+ 
+ 
+ 
+  *** Object name:  frequency
+  *** Class name :  frequency
+  *** Message    :  New values in object
+ 
+  Frequency No.    1  :   0.360000E+02 GHz
+ 
+ 
+  *** Object name:  tabulated_pattern
+  *** Class name :  tabulated_pattern
+  *** Message    :  Object created
+ 
+ 
+ 
+  *** Object name:  tabulated_pattern
+  *** Class name :  tabulated_pattern
+  *** Message    :  Object created
+ 
+ 
+ 
+  *** Object name:  tabulated_pattern
+  *** Class name :  tabulated_pattern
+  *** Message    :  New values in object
+ 
+  Frequency : frequency
+  Coor_sys : origine
+ 
+ 
+  *** Object name:  tabulated_pattern
+  *** Class name :  tabulated_pattern
+  *** Message    :  Definition of common feed attributes
+ 
+ 
+ 
+  *** Object name:  tabulated_pattern
+  *** Class name :  tabulated_pattern
+  *** Message    :  Definition of feed
+ 
+ 
+  File name : spherical_cut_36.cut
+ 
+  Number of theta cuts for each frequency: 8
+ 
+ 
+  *** Object name:  field
+  *** Class name :  coor_sys
+  *** Message    :  Object created
+ 
+ 
+ 
+  *** Object name:  field
+  *** Class name :  coor_sys
+  *** Message    :  New values in object
+ 
+  Origin :   0.000000E+00 mm    0.000000E+00 mm    0.600000E+01 m
+  Z_axis :     0.000000    0.000000    1.000000
+ 
+ 
+  *** Object name:  spherical_cut
+  *** Class name :  spherical_cut
+  *** Message    :  Object created
+ 
+ 
+ 
+  *** Object name:  spherical_cut
+  *** Class name :  spherical_cut
+  *** Message    :  New values in object
+ 
+  Coor_sys : field
+  Theta range : start -90.00000    end  90.00000    points   181
+  Phi range : start   0.00000    end  90.00000    points     3
+ 
+ 
+  *** Object name:  view_1
+  *** Class name :  view
+  *** Message    :  Object created
+ 
+ 
+ 
+  *** Object name:  view_1
+  *** Class name :  view
+  *** Message    :  New values in object
+ 
+ 
+  Number of objects :      3
+ 
+  Definition of objects   :
+   No.  Name
+     1  coor_sys_plot_for_view_1
+     2  feed_plot_for_view_1
+     3  output_points_plot_for_view_1
+ 
+ 
+ 
+  *** Object name:  coor_sys_plot_for_view_1
+  *** Class name :  coor_sys_plot
+  *** Message    :  Object created
+ 
+ 
+ 
+  *** Object name:  coor_sys_plot_for_view_1
+  *** Class name :  coor_sys_plot
+  *** Message    :  Definition of coor_sys_plot
+ 
+ 
+ 
+  *** Object name:  feed_plot_for_view_1
+  *** Class name :  feed_plot
+  *** Message    :  Object created
+ 
+  Colour (RGB) :     0.721569    0.450980    0.200000
+ 
+ 
+  *** Object name:  feed_plot_for_view_1
+  *** Class name :  feed_plot
+  *** Message    :  Definition of feed_plot
+ 
+ 
+ 
+  *** Object name:  output_points_plot_for_view_1
+  *** Class name :  output_points_plot
+  *** Message    :  Object created
+ 
+ 
+ 
+  *** Object name:  output_points_plot_for_view_1
+  *** Class name :  output_points_plot
+  *** Message    :  Definition of output_points_plot
+ 
+ 
+ ----- TASK No. 1 -----     Started at 14:10:35 on May 22, 2026
+ spherical_cut get_field ( source : sequence(ref(tabulated_pattern)))
+ 
+ 
+  *** Object name:  spherical_cut
+  *** Class name :  spherical_cut
+  *** Message    :  Get_field message received
+ 
+  Source : tabulated_pattern
+ 
+ Definition of tabulated feed
+ 
+ 
+  *** Object name:  tabulated_pattern
+  *** Class name :  tabulated_pattern
+  *** Message    :  Initialisation of feed
+ 
+ 
+  File name : spherical_cut_36.cut
+ 
+  The title of the input pattern is:
+ Field data in cuts
+ 
+  Angular data in file
+    start value : -180.00
+    increment   : 0.49931
+    number of values: 721
+    index of polarisation: 3
+ 
+    input cuts are symmetrical
+ 
+ ----- END OF TASKS -----     Completed at 14:10:35 on May 22, 2026
+ Total time was 1.55 sec
+ 
+ TICRA Tools SN: 012045
+ Program stopped at 14:10:35 on 22 May 2026
+ 

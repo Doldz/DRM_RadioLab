@@ -1,0 +1,536 @@
+ Program started at 15:09:38 on 22 May 2026
+ 
+ 
+ 
+                                     T I C R A   T o o l s
+                                     =====================
+ 
+  Antenna design software from TICRA
+ 
+ TICRA Tools 25.0 for Windows
+ 
+ 
+ TICRA Tools found   8 CPU threads
+ 
+ Enabled products: GRASP
+  Reading tor-file: Job_05.tor
+ 
+ 
+  *** Object name:  principale
+  *** Class name :  coor_sys
+  *** Message    :  Object created
+ 
+ 
+ 
+  *** Object name:  principale
+  *** Class name :  coor_sys
+  *** Message    :  New values in object
+ 
+  Z_axis :     0.000000    0.000000    1.000000
+ 
+ 
+  *** Object name:  primario
+  *** Class name :  coor_sys
+  *** Message    :  Object created
+ 
+ 
+ 
+  *** Object name:  primario
+  *** Class name :  coor_sys
+  *** Message    :  New values in object
+ 
+  Base name : principale
+  Z_axis :     0.000000    0.000000    1.000000
+ 
+ 
+  *** Object name:  secondario
+  *** Class name :  coor_sys
+  *** Message    :  Object created
+ 
+ 
+ 
+  *** Object name:  secondario
+  *** Class name :  coor_sys
+  *** Message    :  New values in object
+ 
+  Origin :   0.000000E+00 mm    0.000000E+00 m     0.151600E+04 mm
+  Base name : principale
+  Y_axis :     0.000000   -1.000000    0.000000
+  Z_axis :     0.000000    0.000000   -1.000000
+ 
+ 
+  *** Object name:  focus
+  *** Class name :  coor_sys
+  *** Message    :  Object created
+ 
+ 
+ 
+  *** Object name:  focus
+  *** Class name :  coor_sys
+  *** Message    :  New values in object
+ 
+  Origin :   0.000000E+00 m     0.000000E+00 m     0.682000E+03 mm
+  Base name : primario
+  Z_axis :     0.000000    0.000000    1.000000
+ 
+ 
+  *** Object name:  frequency
+  *** Class name :  frequency
+  *** Message    :  Object created
+ 
+ 
+ 
+  *** Object name:  frequency
+  *** Class name :  frequency
+  *** Message    :  New values in object
+ 
+  Frequency No.    1  :   0.300000E+02 GHz
+ 
+ 
+  *** Object name:  gaussian_beam_pattern
+  *** Class name :  gaussian_beam_pattern
+  *** Message    :  Object created
+ 
+ 
+ 
+  *** Object name:  gaussian_beam_pattern
+  *** Class name :  gaussian_beam_pattern
+  *** Message    :  Object created
+ 
+ 
+ 
+  *** Object name:  gaussian_beam_pattern
+  *** Class name :  gaussian_beam_pattern
+  *** Message    :  New values in object
+ 
+  Frequency : frequency
+  Coor_sys : focus
+ 
+ 
+  *** Object name:  gaussian_beam_pattern
+  *** Class name :  gaussian_beam_pattern
+  *** Message    :  Definition of common feed attributes
+ 
+ 
+  Taper angle :   12.0000 degrees
+ 
+  Taper compared to on-axis level :  -3.00000 dB
+ 
+ 
+  *** Object name:  gaussian_beam_pattern
+  *** Class name :  gaussian_beam_pattern
+  *** Message    :  Definition of gaussian feed
+ 
+ 
+  The imaginary displacement along the negative z-axis
+    is 2.43551 wavelengths
+ 
+  The beam waist radius is 0.880480 wavelengths
+ 
+ 
+  *** Object name:  paraboloid
+  *** Class name :  paraboloid
+  *** Message    :  Object created
+ 
+ 
+ 
+  *** Object name:  paraboloid
+  *** Class name :  surface
+  *** Message    :  New values in object
+ 
+  The paraboloid vertex is placed at
+    x :    0.00000 mm
+    y :    0.00000 mm
+    z :    0.00000 mm
+  and in SI units
+    x :    0.00000 meter
+    y :    0.00000 meter
+    z :    0.00000 meter
+ 
+  Focal length     :    1515.00 mm
+   and in SI units :    1.51500 meter
+ 
+ 
+  *** Object name:  elliptical_rim_prim
+  *** Class name :  elliptical_rim
+  *** Message    :  Object created
+ 
+ 
+  The half axes of the ellipse are defined by
+    in x-direction :    736.500 mm
+    in y-direction :    736.500 mm
+  and in SI units
+    in x-direction :   0.736500     meter
+    in y-direction :   0.736500     meter
+ 
+  The rim limits in radii are
+    minimum :   0.736500     meter
+    maximum :   0.736500     meter
+ 
+  The rim limits in x direction are
+    minimum :  -0.736500     meter
+    maximum :   0.736500     meter
+ 
+  The rim limits in y direction are
+    minimum :  -0.736500     meter
+    maximum :   0.736500     meter
+ 
+ 
+  *** Object name:  reflector_prim
+  *** Class name :  reflector
+  *** Message    :  Object created
+ 
+ 
+ 
+  *** Object name:  reflector_prim
+  *** Class name :  reflector
+  *** Message    :  New values in object
+ 
+  Coordinate system: primario
+  Rim: elliptical_rim_prim
+  Surface No.    1 : paraboloid
+ 
+ 
+  *** Object name:  hyperboloid
+  *** Class name :  hyperboloid
+  *** Message    :  Object created
+ 
+ 
+ 
+  *** Object name:  hyperboloid
+  *** Class name :  surface
+  *** Message    :  New values in object
+ 
+ 
+  Distance between the vertices, 2a :    294.000 mm
+   and in SI units                  :   0.294000 meter
+ 
+  Distance between the foci, 2c     :    880.000 mm
+   and in SI units                  :   0.880000 meter
+ 
+    giving the eccentricity         :    2.99320
+ 
+ 
+  *** Object name:  elliptical_rim_sec
+  *** Class name :  elliptical_rim
+  *** Message    :  Object created
+ 
+ 
+  The half axes of the ellipse are defined by
+    in x-direction :    148.000 mm
+    in y-direction :    148.000 mm
+  and in SI units
+    in x-direction :   0.148000     meter
+    in y-direction :   0.148000     meter
+ 
+  The rim limits in radii are
+    minimum :   0.148000     meter
+    maximum :   0.148000     meter
+ 
+  The rim limits in x direction are
+    minimum :  -0.148000     meter
+    maximum :   0.148000     meter
+ 
+  The rim limits in y direction are
+    minimum :  -0.148000     meter
+    maximum :   0.148000     meter
+ 
+ 
+  *** Object name:  reflector_sec
+  *** Class name :  reflector
+  *** Message    :  Object created
+ 
+ 
+ 
+  *** Object name:  reflector_sec
+  *** Class name :  reflector
+  *** Message    :  New values in object
+ 
+  Coordinate system: secondario
+  Rim: elliptical_rim_sec
+  Surface No.    1 : hyperboloid
+ 
+ 
+  *** Object name:  planewave
+  *** Class name :  coor_sys
+  *** Message    :  Object created
+ 
+ 
+ 
+  *** Object name:  planewave
+  *** Class name :  coor_sys
+  *** Message    :  New values in object
+ 
+  Origin :   0.000000E+00 m     0.000000E+00 m     0.600000E+01 m
+  Base name : principale
+  Y_axis :     0.000000   -1.000000    0.000000
+  Z_axis :     0.000000    0.000000   -1.000000
+ 
+ 
+  *** Object name:  field
+  *** Class name :  coor_sys
+  *** Message    :  Object created
+ 
+ 
+ 
+  *** Object name:  field
+  *** Class name :  coor_sys
+  *** Message    :  New values in object
+ 
+  Base name : planewave
+  Y_axis :     0.000000   -1.000000    0.000000
+  Z_axis :     0.000000    0.000000   -1.000000
+ 
+ 
+  *** Object name:  po_single_face_scatterer_prim
+  *** Class name :  po_single_face_scatterer
+  *** Message    :  Object created
+ 
+ 
+ 
+  *** Object name:  po_single_face_scatterer_prim
+  *** Class name :  po_single_face_scatterer
+  *** Message    :  New values in object
+ 
+  Frequency : frequency
+  Scatterer : reflector_prim
+ 
+ 
+  *** Object name:  po_single_face_scatterer_sec
+  *** Class name :  po_single_face_scatterer
+  *** Message    :  Object created
+ 
+ 
+ 
+  *** Object name:  po_single_face_scatterer_sec
+  *** Class name :  po_single_face_scatterer
+  *** Message    :  New values in object
+ 
+  Frequency : frequency
+  Scatterer : reflector_sec
+ 
+ 
+  *** Object name:  spherical_cut
+  *** Class name :  spherical_cut
+  *** Message    :  Object created
+ 
+ 
+ 
+  *** Object name:  spherical_cut
+  *** Class name :  spherical_cut
+  *** Message    :  New values in object
+ 
+  Frequency : frequency
+  Coor_sys : infinito
+  Theta range : start-180.00000    end 180.00000    points  3601
+  Phi range : start   0.00000    end  90.00000    points     8
+ 
+ 
+  *** Object name:  plane_wave
+  *** Class name :  plane_wave
+  *** Message    :  Object created
+ 
+ 
+ 
+  *** Object name:  plane_wave
+  *** Class name :  plane_wave
+  *** Message    :  New values in object
+ 
+  Frequency : frequency
+  Coor_sys : planewave
+ 
+  Circular aperture radius :    736.000 mm
+   and in SI units         :   0.736000 meter
+ 
+ 
+  *** Object name:  infinito
+  *** Class name :  coor_sys
+  *** Message    :  Object created
+ 
+ 
+ 
+  *** Object name:  infinito
+  *** Class name :  coor_sys
+  *** Message    :  New values in object
+ 
+  Base name : field
+  Y_axis :     0.000000   -1.000000    0.000000
+  Z_axis :     0.000000    0.000000   -1.000000
+ 
+ 
+  *** Object name:  tabulated_pattern
+  *** Class name :  tabulated_pattern
+  *** Message    :  Object created
+ 
+ 
+ 
+  *** Object name:  tabulated_pattern
+  *** Class name :  tabulated_pattern
+  *** Message    :  Object created
+ 
+ 
+ 
+  *** Object name:  tabulated_pattern
+  *** Class name :  tabulated_pattern
+  *** Message    :  New values in object
+ 
+  Frequency : frequency
+  Coor_sys : focus
+ 
+ 
+  *** Object name:  tabulated_pattern
+  *** Class name :  tabulated_pattern
+  *** Message    :  Definition of common feed attributes
+ 
+ 
+ 
+  *** Object name:  tabulated_pattern
+  *** Class name :  tabulated_pattern
+  *** Message    :  Definition of feed
+ 
+ 
+  File name : spherical_cut_30.cut
+ 
+  Number of theta cuts for each frequency: 8
+ 
+ 
+  *** Object name:  view_1
+  *** Class name :  view
+  *** Message    :  Object created
+ 
+ 
+ 
+  *** Object name:  view_1
+  *** Class name :  view
+  *** Message    :  New values in object
+ 
+ 
+  Number of objects :      6
+ 
+  Definition of objects   :
+   No.  Name
+     1  coor_sys_plot_for_view_1
+     2  feed_plot_for_view_1
+     3  reflector_plot_for_view_1
+     4  output_points_plot_for_view_1
+     5  plane_wave_plot_for_view_1
+     6  rays_from_plane_waves
+ 
+ 
+ 
+  *** Object name:  coor_sys_plot_for_view_1
+  *** Class name :  coor_sys_plot
+  *** Message    :  Object created
+ 
+ 
+ 
+  *** Object name:  coor_sys_plot_for_view_1
+  *** Class name :  coor_sys_plot
+  *** Message    :  Definition of coor_sys_plot
+ 
+ 
+ 
+  *** Object name:  feed_plot_for_view_1
+  *** Class name :  feed_plot
+  *** Message    :  Object created
+ 
+  Colour (RGB) :     0.721569    0.450980    0.200000
+ 
+ 
+  *** Object name:  feed_plot_for_view_1
+  *** Class name :  feed_plot
+  *** Message    :  Definition of feed_plot
+ 
+ 
+ 
+  *** Object name:  reflector_plot_for_view_1
+  *** Class name :  reflector_plot
+  *** Message    :  Object created
+ 
+  Colour (RGB) :     0.721569    0.450980    0.200000
+ 
+ 
+  *** Object name:  reflector_plot_for_view_1
+  *** Class name :  reflector_plot
+  *** Message    :  Definition of reflector_plot
+ 
+ 
+ 
+  *** Object name:  output_points_plot_for_view_1
+  *** Class name :  output_points_plot
+  *** Message    :  Object created
+ 
+ 
+ 
+  *** Object name:  output_points_plot_for_view_1
+  *** Class name :  output_points_plot
+  *** Message    :  Definition of output_points_plot
+ 
+ 
+ 
+  *** Object name:  plane_wave_plot_for_view_1
+  *** Class name :  plane_wave_plot
+  *** Message    :  Object created
+ 
+ 
+ 
+  *** Object name:  plane_wave_plot_for_view_1
+  *** Class name :  plane_wave_plot
+  *** Message    :  Definition of plane_wave_plot
+ 
+ 
+ 
+  *** Object name:  rays_from_plane_waves
+  *** Class name :  rays_from_plane_waves
+  *** Message    :  Object created
+ 
+ 
+ 
+  *** Object name:  rays_from_plane_waves
+  *** Class name :  rays_from_plane_waves
+  *** Message    :  Definition of ray_plot
+ 
+ 
+ 
+  *** Object name:  rays_from_plane_waves
+  *** Class name :  rays_from_plane_waves
+  *** Message    :  Definition of rays_from_plane_waves
+ 
+ 
+  rho range :
+  Start :    149.000 mm
+  End   :    368.000 mm
+  Points:      6
+   and in SI units
+  Start :   0.149000 meter
+  End   :   0.368000 meter
+ 
+  Phi range : start   0.00000    end 360.00000    points     4
+ 
+  Ray path range :
+  Start:    0.00000 m
+  End  :    8.00000 m
+   and in SI units
+  Start:    0.00000     meter
+  End  :    8.00000     meter
+ 
+ ----- TASK No. 1 -----     Started at 15:09:39 on May 22, 2026
+ po_single_face_scatterer_sec get_currents ( source :
+ sequence(ref(tabulated_pattern)), auto_convergence_of_po : on,
+ convergence_on_scatterer : sequence(ref(reflector_sec)))
+ 
+ 
+  *** Object name:  po_single_face_scatterer_sec
+  *** Class name :  po_single_face_scatterer
+  *** Message    :  Get_currents message received
+ 
+  Source : tabulated_pattern
+  PO-auto-convergence selection : on
+  Convergence test on scatterer object : reflector_sec
+ 
+ ----- END OF TASKS -----     Completed at 15:09:39 on May 22, 2026
+ Total time was 1.80 sec
+ 
+ TICRA Tools SN: 012045
+ Program stopped at 15:09:39 on 22 May 2026
+ 

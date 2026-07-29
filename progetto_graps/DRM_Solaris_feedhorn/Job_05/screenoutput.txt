@@ -1,0 +1,28 @@
+ Tci file: Job_05.tci
+ Out file: Job_05.out
+ Log file: Job_05.log
+ 
+ 
+ TICRA Tools 25.0 for Windows
+ 
+ 
+ TICRA Tools found   8 CPU threads
+ Enabled products: GRASP
+ 
+ ----- TASK No. 1 -----     Started at 15:09:39 on May 22, 2026
+ 
+ po_single_face_scatterer_sec get_currents ( source :
+ sequence(ref(tabulated_pattern)), auto_convergence_of_po : on,
+ convergence_on_scatterer : sequence(ref(reflector_sec)))
+ 
+ ERROR: Message from object po_single_face_scatterer_sec:
+ convergence_on_scatterer cannot reference the same scatterer as the PO object itself.
+ 
+ ERROR: Message from object po_single_face_scatterer_sec:
+ The 'get_currents' command failed due to errors.
+ 
+ Total task time:  0.00 sec
+ 
+ ----- END OF TASKS -----     Completed at 15:09:39 on May 22, 2026
+ 
+ Total time was 1.80 sec

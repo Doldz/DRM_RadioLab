@@ -1,0 +1,83 @@
+ Tci file: simulazione_23Ghz.tci
+ Out file: simulazione_23Ghz.out
+ Log file: simulazione_23Ghz.log
+ 
+ 
+ TICRA Tools 25.0 for Windows
+ 
+ 
+ TICRA Tools found   8 CPU threads
+ Enabled products: GRASP
+ 
+ ----- TASK No. 1 -----     Started at 16:03:38 on May 22, 2026
+ 
+ po_single_face_scatterer_sec get_currents ( source :
+ sequence(ref(tabulated_pattern)), auto_convergence_of_po : on,
+ convergence_on_scatterer : sequence(ref(reflector_prim)))
+ 
+  PO1 =        10 PO2 =        10 Face =     1,    Performing PO convergence test 
+  The input field is a far field
+   expansion in spherical modes:       completed 
+ 
+ WARNING: Message from object tabulated_pattern:
+ -------
+ The field is expanded in spherical modes with maximum mode index N
+ A near-field distance, r, smaller than N/k has been requested
+ r*k =   281.034     < NMAX = 360
+ Modes larger than r*k will not be used
+ and the near-field may be wrong
+ The warning will only be typed once
+ 
+  PO1 =        22 PO2 =        50 Face =     1,    Final PO-values from auto-convergence 
+  PTD =        49                 Edge =     1,    Final PTD-values from auto-convergence 
+ 
+  Calculating currents.
+  No. of PO-points (target):                784                      
+  No. of PTD points (target):                49                      
+                                                                     
+ Total task time:  0.28 sec
+ 
+ ----- TASK No. 2 -----     Started at 16:03:39 on May 22, 2026
+ 
+ po_single_face_scatterer_prim get_currents ( source :
+ sequence(ref(po_single_face_scatterer_sec)), auto_convergence_of_po : on,
+ convergence_on_output_grid : sequence(ref(spherical_cut)))
+ 
+  PO1 =       118 PO2 =       370 Face =     1,    Final PO-values from auto-convergence 
+  PTD =       370                 Edge =     1,    Final PTD-values from auto-convergence 
+ 
+  Calculating currents.
+  No. of PO-points (target):              28249                      
+  No. of PO points (source):                784                      
+  No. of PTD points (source):                49                      
+  No. of PTD points (target):               370                      
+                                                                     
+ Total task time:  0.59 sec
+ 
+ ----- TASK No. 3 -----     Started at 16:03:39 on May 22, 2026
+ 
+ spherical_cut get_field ( source :
+ sequence(ref(po_single_face_scatterer_prim)))
+ 
+  No. of field points:                    18005                      
+  No. of PO points (source):              28249                      
+  No. of PTD points (source):               370                      
+                                                                     
+ Total task time:  2.54 sec
+ 
+ ----- END OF TASKS -----     Completed at 16:03:42 on May 22, 2026
+ 
+ INFO: 1 WARNING ENCOUNTERED.
+ 
+ WARNING NO. 1
+ Message from object tabulated_pattern:
+ -------
+ The field is expanded in spherical modes with maximum mode index N
+ A near-field distance, r, smaller than N/k has been requested
+ r*k =   281.034     < NMAX = 360
+ Modes larger than r*k will not be used
+ and the near-field may be wrong
+ The warning will only be typed once
+ 
+ 
+ Total time was 5.33 sec

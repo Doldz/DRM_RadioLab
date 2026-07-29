@@ -1,0 +1,111 @@
+[Comment]
+
+[TOR file]
+working/DRM_Solaris_feedhorn.tor
+[TCI file]
+working/DRM_Solaris_feedhorn.tci
+[Project setup]
+<!DOCTYPE Project>
+<Project application="TICRA Tools" version="25.0.0">
+ <Results>
+  <Analysis Name="Job_01" Path="Job_01">
+   <Objects Path="Job_01.tor"/>
+   <Commands Path="Job_01.tci"/>
+   <Output Path="output_files.xml"/>
+   <Job Name="Job_01" StartTime="2026-05-08T15:06:12" JobStatus="Job Finished" JobHidden="false" JobOutputSpec="output_files.xml" JobProcessID="17166" NumCommands="0"/>
+  </Analysis>
+  <Analysis Name="Job_02" Path="Job_02">
+   <Objects Path="Job_02.tor"/>
+   <Commands Path="Job_02.tci"/>
+   <Output Path="output_files.xml"/>
+   <Job Name="Job_02" StartTime="2026-05-08T15:10:03" JobStatus="Job Finished" JobHidden="false" JobOutputSpec="output_files.xml" JobProcessID="17183" NumCommands="0"/>
+  </Analysis>
+  <Analysis Name="Job_03" Path="Job_03">
+   <Objects Path="Job_03.tor"/>
+   <Commands Path="Job_03.tci"/>
+   <Output Path="output_files.xml"/>
+   <Job Name="Job_03" StartTime="2026-05-22T15:04:04" JobStatus="Job Finished" JobHidden="false" JobOutputSpec="output_files.xml" JobProcessID="16664" NumCommands="0"/>
+  </Analysis>
+  <Analysis Name="Job_04" Path="Job_04">
+   <Objects Path="Job_04.tor"/>
+   <Commands Path="Job_04.tci"/>
+   <Output Path="output_files.xml"/>
+   <Job Name="Job_04" StartTime="2026-05-22T15:07:28" JobStatus="Job Finished" JobHidden="false" JobOutputSpec="output_files.xml" JobProcessID="14796" NumCommands="0"/>
+  </Analysis>
+  <Analysis Name="Job_05" Path="Job_05">
+   <Objects Path="Job_05.tor"/>
+   <Commands Path="Job_05.tci"/>
+   <Output Path="output_files.xml"/>
+   <Job Name="Job_05" StartTime="2026-05-22T15:09:37" JobStatus="Job Failed" JobHidden="false" JobOutputSpec="output_files.xml" JobProcessID="1484" NumCommands="0"/>
+  </Analysis>
+  <Analysis Name="Job_06" Path="Job_06">
+   <Objects Path="Job_06.tor"/>
+   <Commands Path="Job_06.tci"/>
+   <Output Path="output_files.xml"/>
+   <Job Name="Job_06" StartTime="2026-05-22T15:10:38" JobStatus="Job Finished" JobHidden="false" JobOutputSpec="output_files.xml" JobProcessID="13192" NumCommands="0"/>
+  </Analysis>
+  <Analysis Name="Job_07" Path="Job_07">
+   <Objects Path="Job_07.tor"/>
+   <Commands Path="Job_07.tci"/>
+   <Output Path="output_files.xml"/>
+   <Job Name="Job_07" StartTime="2026-05-22T15:16:12" JobStatus="Job Finished" JobHidden="false" JobOutputSpec="output_files.xml" JobProcessID="312" NumCommands="0"/>
+  </Analysis>
+  <Analysis Name="Job_08" Path="Job_08">
+   <Objects Path="Job_08.tor"/>
+   <Commands Path="Job_08.tci"/>
+   <Output Path="output_files.xml"/>
+   <Job Name="Job_08" StartTime="2026-05-22T15:19:43" JobStatus="Job Finished" JobHidden="false" JobOutputSpec="output_files.xml" JobProcessID="11016" NumCommands="0"/>
+  </Analysis>
+  <Analysis Name="Job_09" Path="Job_09">
+   <Objects Path="Job_09.tor"/>
+   <Commands Path="Job_09.tci"/>
+   <Output Path="output_files.xml"/>
+   <Job Name="Job_09" StartTime="2026-05-22T15:22:33" JobStatus="Job Finished" JobHidden="false" JobOutputSpec="output_files.xml" JobProcessID="14996" NumCommands="0"/>
+  </Analysis>
+  <Analysis Name="Job_10" Path="Job_10">
+   <Objects Path="Job_10.tor"/>
+   <Commands Path="Job_10.tci"/>
+   <Output Path="output_files.xml"/>
+   <Job Name="Job_10" StartTime="2026-05-22T15:32:19" JobStatus="Job Finished" JobHidden="false" JobOutputSpec="output_files.xml" JobProcessID="14496" NumCommands="0"/>
+  </Analysis>
+  <Analysis Name="Job_11" Path="Job_11">
+   <Objects Path="Job_11.tor"/>
+   <Commands Path="Job_11.tci"/>
+   <Output Path="output_files.xml"/>
+   <Job Name="Job_11" StartTime="2026-05-22T15:39:12" JobStatus="Job Finished" JobHidden="false" JobOutputSpec="output_files.xml" JobProcessID="3564" NumCommands="0"/>
+  </Analysis>
+  <Analysis Name="simulazione_30Ghz" Path="simulazione_30Ghz">
+   <Objects Path="simulazione_30Ghz.tor"/>
+   <Commands Path="simulazione_30Ghz.tci"/>
+   <Output Path="output_files.xml"/>
+   <Job Name="simulazione_30Ghz" StartTime="2026-05-22T15:46:21" JobStatus="Job Finished" JobHidden="false" JobOutputSpec="output_files.xml" JobProcessID="14024" NumCommands="0"/>
+  </Analysis>
+  <Analysis Name="simulazione_23Ghz" Path="simulazione_23Ghz">
+   <Objects Path="simulazione_23Ghz.tor"/>
+   <Commands Path="simulazione_23Ghz.tci"/>
+   <Output Path="output_files.xml"/>
+   <Job Name="simulazione_23Ghz" StartTime="2026-05-22T16:03:36" JobStatus="Job Finished" JobHidden="false" JobOutputSpec="output_files.xml" JobProcessID="14848" NumCommands="0"/>
+  </Analysis>
+  <Analysis Name="simulazione_37Ghz" Path="simulazione_37Ghz">
+   <Objects Path="simulazione_37Ghz.tor"/>
+   <Commands Path="simulazione_37Ghz.tci"/>
+   <Output Path="output_files.xml"/>
+   <Job Name="simulazione_37Ghz" StartTime="2026-05-22T16:06:24" JobStatus="Job Finished" JobHidden="false" JobOutputSpec="output_files.xml" JobProcessID="1636" NumCommands="0"/>
+  </Analysis>
+ </Results>
+ <ResultWindows>
+  <PlotStyleModel>
+   <DefaultPlotStyle name=""/>
+  </PlotStyleModel>
+  <GridStyleModel>
+   <DefaultPlotStyle name=""/>
+  </GridStyleModel>
+ </ResultWindows>
+ <WizardData/>
+ <view_configuration>
+  <view perspective_view="no" enable_phi_slider="no" maximized="yes" show_wire_grid="yes" enable_theta_slider="no" show_surfaces="yes" show_rulers="yes" locked_phi_theta="no" scale="1.20893" minimized="no" orientation_type="0" collapsed_view_settings_entries="" position="-0.6491618156433105,-0.03140133619308472,0.7440382242202759" upVector="-1.236796379089355e-06,-4.76837158203125e-07,1.000000476837158" viewCenter="-1.58460545539856,-0.3848765790462494,0.7440382242202759" enable_psi_slider="no" size="1071x685" pos="0x0" name="view_1"/>
+ </view_configuration>
+ <optimisation_configuration current_tab="Press 'New Manager' to create an optimisation manager"/>
+ <uq_configuration current_tab="Press 'New Manager' to create an uncertainty quantification manager"/>
+ <projectSettings/>
+</Project>

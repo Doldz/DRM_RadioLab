@@ -1,0 +1,71 @@
+ Tci file: Job_01.tci
+ Out file: Job_01.out
+ Log file: Job_01.log
+ 
+ 
+ TICRA Tools SE 24.0 for Mac OS
+ 
+ 
+ TICRA Tools SE found   8 CPU threads
+ (Student edition limited to 1 CPU thread)
+ 
+ ----- TASK No. 1 -----     Started at 15:06:13 on May  8, 2026
+ 
+ po_single_face_scatterer_sec get_currents ( source :
+ sequence(ref(gaussian_beam_pattern)))
+ 
+  PO1 =        36 PO2 =       108 Face =     1,    Final PO-values from auto-convergence 
+  PTD =       105                 Edge =     1,    Final PTD-values from auto-convergence 
+ 
+  Calculating currents.
+  No. of PO-points (target):               2614                      
+  No. of PTD points (target):               105                      
+ Estimated task time:  0.46 sec, Estimated remaining time:  0.00 sec 
+ 
+  Relative power hitting scatterer:    0.661792
+  Spillover: 1.7928 dB
+                                                                     
+ Total task time:  0.48 sec
+ 
+ ----- TASK No. 2 -----     Started at 15:06:14 on May  8, 2026
+ 
+ po_single_face_scatterer_prim get_currents ( source :
+ sequence(ref(po_single_face_scatterer_sec)))
+ 
+  PO1 =       153 PO2 =       480 Face =     1,    Final PO-values from auto-convergence 
+  PTD =       480                 Edge =     1,    Final PTD-values from auto-convergence 
+ 
+  Calculating currents.
+  No. of PO-points (target):              47340                      
+  No. of PO points (source):               2614                      
+  No. of PTD points (source):               105                      
+  No. of PTD points (target):               480                      
+ Estimated task time: 22.86 sec, Estimated remaining time:  1.00 sec 
+ 
+  Relative power hitting scatterer:    0.623531
+  Spillover: 2.0514 dB
+                                                                     
+ Total task time: 22.98 sec
+ 
+ ----- TASK No. 3 -----     Started at 15:06:37 on May  8, 2026
+ 
+ spherical_cut get_field ( source :
+ sequence(ref(po_single_face_scatterer_prim)))
+ 
+  No. of field points:                    28808                      
+  No. of PO points (source):              47340                      
+  No. of PTD points (source):               480                      
+                                                                     
+ Total task time: 34.22 sec
+ 
+ ----- TASK No. 4 -----     Started at 15:07:11 on May  8, 2026
+ 
+ spherical_cut add_field ( source : sequence(ref(gaussian_beam_pattern)))
+ 
+  No. of field points:                    28808                      
+                                                                     
+ Total task time:  0.07 sec
+ 
+ ----- END OF TASKS -----     Completed at 15:07:11 on May  8, 2026
+ 
+ Total time was 58.28 sec

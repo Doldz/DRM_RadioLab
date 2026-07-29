@@ -1,0 +1,13 @@
+ Program started at 14:15:19 on 22 May 2026
+ 
+ TICRA Tools 25.0 for Windows
+ 
+ TICRA Tools found   8 CPU threads
+ 
+TICRA-TOOLS>COMMAND OBJECT spherical_cut get_field ( source :   sequence(ref(tabulated_pattern))) 
+ ----- TASK No. 1 -----     Started at 14:15:20 on May 22, 2026
+ERROR: File line #2: The theta limits must be identical 
+ 
+ ----- END OF TASKS -----     Completed at 14:15:20 on May 22, 2026
+ Total time was 1.92 sec
+ Program stopped at 14:15:20 on 22 May 2026

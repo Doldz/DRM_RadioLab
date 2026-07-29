@@ -1,0 +1,420 @@
+[Comment]
+
+[TOR file]
+working/NewProject.tor
+[TCI file]
+working/NewProject.tci
+[Project setup]
+<!DOCTYPE Project>
+<Project application="TICRA Tools" version="25.0.0">
+ <Results>
+  <Analysis Name="Job_01" Path="Job_01">
+   <Objects Path="Job_01.tor"/>
+   <Commands Path="Job_01.tci"/>
+   <Output Path="output_files.xml"/>
+   <Job Name="Job_01" StartTime="2026-05-22T13:50:30" JobStatus="Job Failed" JobHidden="false" JobOutputSpec="output_files.xml" JobProcessID="10596" NumCommands="0"/>
+  </Analysis>
+  <Analysis Name="Job_02" Path="Job_02">
+   <Objects Path="Job_02.tor"/>
+   <Commands Path="Job_02.tci"/>
+   <Output Path="output_files.xml"/>
+   <Job Name="Job_02" StartTime="2026-05-22T13:51:28" JobStatus="Job Failed" JobHidden="false" JobOutputSpec="output_files.xml" JobProcessID="17272" NumCommands="0"/>
+  </Analysis>
+  <Analysis Name="Job_03" Path="Job_03">
+   <Objects Path="Job_03.tor"/>
+   <Commands Path="Job_03.tci"/>
+   <Output Path="output_files.xml"/>
+   <Job Name="Job_03" StartTime="2026-05-22T13:53:37" JobStatus="Job Failed" JobHidden="false" JobOutputSpec="output_files.xml" JobProcessID="1228" NumCommands="0"/>
+  </Analysis>
+  <Analysis Name="Job_04" Path="Job_04">
+   <Objects Path="Job_04.tor"/>
+   <Commands Path="Job_04.tci"/>
+   <Output Path="output_files.xml"/>
+   <Job Name="Job_04" StartTime="2026-05-22T13:59:43" JobStatus="Job Failed" JobHidden="false" JobOutputSpec="output_files.xml" JobProcessID="13700" NumCommands="0"/>
+  </Analysis>
+  <Analysis Name="Job_05" Path="Job_05">
+   <Objects Path="Job_05.tor"/>
+   <Commands Path="Job_05.tci"/>
+   <Output Path="output_files.xml"/>
+   <Job Name="Job_05" StartTime="2026-05-22T14:10:33" JobStatus="Job Failed" JobHidden="false" JobOutputSpec="output_files.xml" JobProcessID="9164" NumCommands="0"/>
+  </Analysis>
+  <Analysis Name="Job_06" Path="Job_06">
+   <Objects Path="Job_06.tor"/>
+   <Commands Path="Job_06.tci"/>
+   <Output Path="output_files.xml"/>
+   <Job Name="Job_06" StartTime="2026-05-22T14:15:18" JobStatus="Job Failed" JobHidden="false" JobOutputSpec="output_files.xml" JobProcessID="14428" NumCommands="0"/>
+  </Analysis>
+  <Analysis Name="Job_07" Path="Job_07">
+   <Objects Path="Job_07.tor"/>
+   <Commands Path="Job_07.tci"/>
+   <Output Path="output_files.xml"/>
+   <Job Name="Job_07" StartTime="2026-05-22T14:21:54" JobStatus="Job Failed" JobHidden="false" JobOutputSpec="output_files.xml" JobProcessID="16544" NumCommands="0"/>
+  </Analysis>
+  <Analysis Name="Job_08" Path="Job_08">
+   <Objects Path="Job_08.tor"/>
+   <Commands Path="Job_08.tci"/>
+   <Output Path="output_files.xml"/>
+   <Job Name="Job_08" StartTime="2026-05-22T14:23:01" JobStatus="Job Failed" JobHidden="false" JobOutputSpec="output_files.xml" JobProcessID="2380" NumCommands="0"/>
+  </Analysis>
+  <Analysis Name="Job_09" Path="Job_09">
+   <Objects Path="Job_09.tor"/>
+   <Commands Path="Job_09.tci"/>
+   <Output Path="output_files.xml"/>
+   <Job Name="Job_09" StartTime="2026-05-22T14:25:01" JobStatus="Job Failed" JobHidden="false" JobOutputSpec="output_files.xml" JobProcessID="17388" NumCommands="0"/>
+  </Analysis>
+  <Analysis Name="Job_10" Path="Job_10">
+   <Objects Path="Job_10.tor"/>
+   <Commands Path="Job_10.tci"/>
+   <Output Path="output_files.xml"/>
+   <Job Name="Job_10" StartTime="2026-05-22T14:26:01" JobStatus="Job Failed" JobHidden="false" JobOutputSpec="output_files.xml" JobProcessID="1652" NumCommands="0"/>
+  </Analysis>
+  <Analysis Name="Job_11" Path="Job_11">
+   <Objects Path="Job_11.tor"/>
+   <Commands Path="Job_11.tci"/>
+   <Output Path="output_files.xml"/>
+   <Job Name="Job_11" StartTime="2026-05-22T14:27:54" JobStatus="Job Failed" JobHidden="false" JobOutputSpec="output_files.xml" JobProcessID="11000" NumCommands="0"/>
+  </Analysis>
+  <Analysis Name="Job_12" Path="Job_12">
+   <Objects Path="Job_12.tor"/>
+   <Commands Path="Job_12.tci"/>
+   <Output Path="output_files.xml"/>
+   <Job Name="Job_12" StartTime="2026-05-22T14:39:37" JobStatus="Job Failed" JobHidden="false" JobOutputSpec="output_files.xml" JobProcessID="10004" NumCommands="0"/>
+  </Analysis>
+  <Analysis Name="Job_13" Path="Job_13">
+   <Objects Path="Job_13.tor"/>
+   <Commands Path="Job_13.tci"/>
+   <Output Path="output_files.xml"/>
+   <Job Name="Job_13" StartTime="2026-05-22T14:40:25" JobStatus="Job Failed" JobHidden="false" JobOutputSpec="output_files.xml" JobProcessID="15668" NumCommands="0"/>
+  </Analysis>
+  <Analysis Name="Job_14" Path="Job_14">
+   <Objects Path="Job_14.tor"/>
+   <Commands Path="Job_14.tci"/>
+   <Output Path="output_files.xml"/>
+   <Job Name="Job_14" StartTime="2026-05-22T14:49:32" JobStatus="Job Failed" JobHidden="false" JobOutputSpec="output_files.xml" JobProcessID="2416" NumCommands="0"/>
+  </Analysis>
+  <Analysis Name="Job_15" Path="Job_15">
+   <Objects Path="Job_15.tor"/>
+   <Commands Path="Job_15.tci"/>
+   <Output Path="output_files.xml"/>
+   <Job Name="Job_15" StartTime="2026-05-22T14:53:41" JobStatus="Job Finished" JobHidden="false" JobOutputSpec="output_files.xml" JobProcessID="16944" NumCommands="0"/>
+  </Analysis>
+ </Results>
+ <ResultWindows>
+  <PlotWidget type="ParametricCurve">
+   <Title text="%Curve_1_Job% → %Curve_1_Object%" font="MS Shell Dlg 2,14,-1,5,75,0,0,0,0,0"/>
+   <Axis inverted="0" fontLabel="MS Shell Dlg 2,12,-1,5,75,0,0,0,0,0" enabled="1" startAt="0" fontNumeral="MS Shell Dlg 2,10,-1,5,50,0,0,0,0,0" useMajor="1" spacing="2" id="0" maximum="22.011228863570629" useFixedStep="0" resetZoomBehaviour="RangeLimit" stepMajor="10" text="%Y-Left Title%" useMinor="0" minimum="-43.988771136429371" stepMinor="5" margin="0">
+    <PenMajor color_r="192" color_g="192" color_b="192" color_a="255" width="0" style="1" styleString="SolidLine"/>
+   </Axis>
+   <Axis inverted="0" fontLabel="MS Shell Dlg 2,12,-1,5,75,0,0,0,0,0" enabled="0" startAt="0" fontNumeral="MS Shell Dlg 2,10,-1,5,50,0,0,0,0,0" useMajor="0" spacing="2" id="1" maximum="1000" useFixedStep="0" resetZoomBehaviour="RangeLimit" stepMajor="10" text="%Y-Right Title%" useMinor="0" minimum="0" stepMinor="5" margin="0"/>
+   <Axis inverted="0" fontLabel="MS Shell Dlg 2,12,-1,5,75,0,0,0,0,0" enabled="1" startAt="0" fontNumeral="MS Shell Dlg 2,10,-1,5,50,0,0,0,0,0" useMajor="1" spacing="2" id="2" maximum="90" useFixedStep="0" resetZoomBehaviour="Regular" stepMajor="10" text="%X-Bottom Title%" useMinor="0" minimum="-90" stepMinor="5" margin="0">
+    <PenMajor color_r="192" color_g="192" color_b="192" color_a="255" width="0" style="1" styleString="SolidLine"/>
+   </Axis>
+   <Axis inverted="0" fontLabel="MS Shell Dlg 2,12,-1,5,75,0,0,0,0,0" enabled="0" startAt="0" fontNumeral="MS Shell Dlg 2,10,-1,5,50,0,0,0,0,0" useMajor="0" spacing="2" id="3" maximum="1000" useFixedStep="0" resetZoomBehaviour="Regular" stepMajor="10" text="%X-Top Title%" useMinor="0" minimum="0" stepMinor="5" margin="0"/>
+   <Canvas color_r="255" majorTickLength="8" axisLineWidth="0" frameAroundExported="1" color_g="255" color_b="255" color_a="255" minorTickLength="4"/>
+   <Grid/>
+   <Legend externalsizeratio="0.29999999999999999" maxcolumns="1" activelegend="1" bgmode="0" textwidthmargin="4" externalalignment="1" legendvisible="1">
+    <bgcolor color_r="255" color_g="255" color_b="255" color_a="255"/>
+    <borderpen color_r="160" color_g="160" color_b="164" color_a="255" width="1" style="1" styleString="SolidLine"/>
+    <internalposition>
+     <horizontal>1000000</horizontal>
+     <vertical>0</vertical>
+    </internalposition>
+    <legendordering>
+     <legendorderingentry uuid="{62fd1d11-b984-4075-a773-87fb356199a8}"/>
+     <legendorderingentry uuid="{5d653897-0d2c-4408-a7c3-3956840fcc1f}"/>
+    </legendordering>
+    <autohiddenentries/>
+   </Legend>
+   <PlotCurve uuid="{62fd1d11-b984-4075-a773-87fb356199a8}" type="ParametricCurve">
+    <EDIFile xmlHeader="&lt;!DOCTYPE FileMetaData>&#xa;&lt;Parameters>&#xa; &lt;File Type=&quot;Cut:Spherical&quot; Quantity=&quot;E&quot; Format=&quot;Ticra&quot; Object=&quot;spherical_cut&quot; Path=&quot;spherical_cut.cut&quot; FileOperation=&quot;Copy&quot; SubObject=&quot;unknown&quot;>&#xa;  &lt;Parameter Name=&quot;Frequency&quot; Unit=&quot;GHz&quot; Values=&quot; 36.0000000000000&quot;/>&#xa;  &lt;Parameter Name=&quot;Phi&quot; Unit=&quot;deg&quot; Values=&quot;[0.000000000000000E+000;90.0000000000000;3]&quot;/>&#xa;  &lt;Parameter Name=&quot;Theta&quot; Unit=&quot;deg&quot; Values=&quot;[-90.0000000000000;90.0000000000000;181]&quot;/>&#xa;  &lt;Scan Type=&quot;polar&quot;/>&#xa; &lt;/File>&#xa;&lt;/Parameters>&#xa;" treeContext="" name="Job_15/spherical_cut.cut"/>
+    <ChosenParameterList>
+     <ChosenParameter Prefix="" Id="FileGroup">
+      <Value String=""/>
+     </ChosenParameter>
+     <ChosenParameter Prefix="" Id="ParentFileGroup">
+      <Value String=""/>
+     </ChosenParameter>
+     <ChosenParameter Prefix="" Id="ConversionOptions">
+      <Value String="Magnitude [dB]"/>
+     </ChosenParameter>
+     <ChosenParameter Prefix="" Id="Frequency">
+      <Value Double="36" Unit="GHz"/>
+     </ChosenParameter>
+     <ChosenParameter Prefix="" Id="ProjectionComponents:Ludwig3">
+      <Value String="E_Lx"/>
+     </ChosenParameter>
+     <ChosenParameter Prefix="" Id="Phi">
+      <Value Double="90" Unit="deg"/>
+     </ChosenParameter>
+    </ChosenParameterList>
+    <Line color_r="0" color_g="0" color_b="0" color_a="255" width="2"/>
+    <Curve inverted="0" scalingFactorX="1" Offset="0" legendEntryVisible="1" z_value="19.100000000000001" fitted="0" visible="1" Offset_X="0" style="1" styleString="Lines" scalingFactor="1" y-axis-name="Magnitude" x-axis-name="θ"/>
+    <Axis y-axis="left" x-axis-unit="deg" y-axis-unit="dB" x-axis="bottom"/>
+    <Symbol size="5" style="-1" styleString="NoSymbol"/>
+    <Baseline color_r="0" baselineValue="0" color_g="0" baselineEnabled="0" color_b="0" color_a="255"/>
+    <Font data="MS Shell Dlg 2,8.25,-1,5,50,0,0,0,0,0"/>
+    <Legend text="%Full Title%"/>
+    <Parameter length="0" class="ConversionOptions" begin="0"/>
+    <Parameter length="0" class="Frequency" begin="0"/>
+    <Parameter length="0" class="Phi" begin="2"/>
+    <Parameter length="0" class="ProjectionComponents:Ludwig3" begin="0"/>
+    <Parameter length="181" class="Theta" begin="0"/>
+    <Format legacyFormat="0"/>
+    <FullSerializationParameters defaultTitle=""/>
+   </PlotCurve>
+   <PlotCurve uuid="{5d653897-0d2c-4408-a7c3-3956840fcc1f}" type="ParametricCurve">
+    <EDIFile xmlHeader="&lt;!DOCTYPE FileMetaData>&#xa;&lt;Parameters>&#xa; &lt;File Type=&quot;Cut:Spherical&quot; Quantity=&quot;E&quot; Format=&quot;Ticra&quot; Object=&quot;spherical_cut&quot; Path=&quot;spherical_cut.cut&quot; FileOperation=&quot;Copy&quot; SubObject=&quot;unknown&quot;>&#xa;  &lt;Parameter Name=&quot;Frequency&quot; Unit=&quot;GHz&quot; Values=&quot; 36.0000000000000&quot;/>&#xa;  &lt;Parameter Name=&quot;Phi&quot; Unit=&quot;deg&quot; Values=&quot;[0.000000000000000E+000;90.0000000000000;3]&quot;/>&#xa;  &lt;Parameter Name=&quot;Theta&quot; Unit=&quot;deg&quot; Values=&quot;[-90.0000000000000;90.0000000000000;181]&quot;/>&#xa;  &lt;Scan Type=&quot;polar&quot;/>&#xa; &lt;/File>&#xa;&lt;/Parameters>&#xa;" treeContext="" name="Job_15/spherical_cut.cut"/>
+    <ChosenParameterList>
+     <ChosenParameter Prefix="" Id="FileGroup">
+      <Value String=""/>
+     </ChosenParameter>
+     <ChosenParameter Prefix="" Id="ParentFileGroup">
+      <Value String=""/>
+     </ChosenParameter>
+     <ChosenParameter Prefix="" Id="ConversionOptions">
+      <Value String="Magnitude [dB]"/>
+     </ChosenParameter>
+     <ChosenParameter Prefix="" Id="Frequency">
+      <Value Double="36" Unit="GHz"/>
+     </ChosenParameter>
+     <ChosenParameter Prefix="" Id="ProjectionComponents:Ludwig3">
+      <Value String="E_Ly"/>
+     </ChosenParameter>
+     <ChosenParameter Prefix="" Id="Phi">
+      <Value Double="90" Unit="deg"/>
+     </ChosenParameter>
+    </ChosenParameterList>
+    <Line color_r="0" color_g="0" color_b="255" color_a="255" width="2"/>
+    <Curve inverted="0" scalingFactorX="1" Offset="0" legendEntryVisible="1" z_value="20" fitted="0" visible="1" Offset_X="0" style="1" styleString="Lines" scalingFactor="1" y-axis-name="Magnitude" x-axis-name="θ"/>
+    <Axis y-axis="left" x-axis-unit="deg" y-axis-unit="dB" x-axis="bottom"/>
+    <Symbol size="5" style="-1" styleString="NoSymbol"/>
+    <Baseline color_r="0" baselineValue="0" color_g="0" baselineEnabled="0" color_b="0" color_a="255"/>
+    <Font data="MS Shell Dlg 2,8.25,-1,5,50,0,0,0,0,0"/>
+    <Legend text="%Full Title%"/>
+    <Parameter length="0" class="ConversionOptions" begin="0"/>
+    <Parameter length="0" class="Frequency" begin="0"/>
+    <Parameter length="0" class="Phi" begin="2"/>
+    <Parameter length="0" class="ProjectionComponents:Ludwig3" begin="1"/>
+    <Parameter length="181" class="Theta" begin="0"/>
+    <Format legacyFormat="0"/>
+    <FullSerializationParameters defaultTitle=""/>
+   </PlotCurve>
+   <Window isMaximized="0" normalX="693" isFullscreen="0" normalWidth="825" normalY="327" normalHeight="565" isMinimized="0"/>
+  </PlotWidget>
+  <PlotWidget type="ParametricCurve">
+   <Title text="%Curve_1_Job% → %Curve_1_Object%" font="MS Shell Dlg 2,14,-1,5,75,0,0,0,0,0"/>
+   <Axis inverted="0" fontLabel="MS Shell Dlg 2,12,-1,5,75,0,0,0,0,0" enabled="1" startAt="0" fontNumeral="MS Shell Dlg 2,10,-1,5,50,0,0,0,0,0" useMajor="1" spacing="2" id="0" maximum="22.011228863570629" useFixedStep="0" resetZoomBehaviour="RangeLimit" stepMajor="10" text="%Y-Left Title%" useMinor="0" minimum="-43.988771136429371" stepMinor="5" margin="0">
+    <PenMajor color_r="192" color_g="192" color_b="192" color_a="255" width="0" style="1" styleString="SolidLine"/>
+   </Axis>
+   <Axis inverted="0" fontLabel="MS Shell Dlg 2,12,-1,5,75,0,0,0,0,0" enabled="0" startAt="0" fontNumeral="MS Shell Dlg 2,10,-1,5,50,0,0,0,0,0" useMajor="0" spacing="2" id="1" maximum="1000" useFixedStep="0" resetZoomBehaviour="RangeLimit" stepMajor="10" text="%Y-Right Title%" useMinor="0" minimum="0" stepMinor="5" margin="0"/>
+   <Axis inverted="0" fontLabel="MS Shell Dlg 2,12,-1,5,75,0,0,0,0,0" enabled="1" startAt="0" fontNumeral="MS Shell Dlg 2,10,-1,5,50,0,0,0,0,0" useMajor="1" spacing="2" id="2" maximum="90" useFixedStep="0" resetZoomBehaviour="Regular" stepMajor="10" text="%X-Bottom Title%" useMinor="0" minimum="-90" stepMinor="5" margin="0">
+    <PenMajor color_r="192" color_g="192" color_b="192" color_a="255" width="0" style="1" styleString="SolidLine"/>
+   </Axis>
+   <Axis inverted="0" fontLabel="MS Shell Dlg 2,12,-1,5,75,0,0,0,0,0" enabled="0" startAt="0" fontNumeral="MS Shell Dlg 2,10,-1,5,50,0,0,0,0,0" useMajor="0" spacing="2" id="3" maximum="1000" useFixedStep="0" resetZoomBehaviour="Regular" stepMajor="10" text="%X-Top Title%" useMinor="0" minimum="0" stepMinor="5" margin="0"/>
+   <Canvas color_r="255" majorTickLength="8" axisLineWidth="0" frameAroundExported="1" color_g="255" color_b="255" color_a="255" minorTickLength="4"/>
+   <Grid/>
+   <Legend externalsizeratio="0.29999999999999999" maxcolumns="1" activelegend="1" bgmode="0" textwidthmargin="4" externalalignment="1" legendvisible="1">
+    <bgcolor color_r="255" color_g="255" color_b="255" color_a="255"/>
+    <borderpen color_r="160" color_g="160" color_b="164" color_a="255" width="1" style="1" styleString="SolidLine"/>
+    <internalposition>
+     <horizontal>1000000</horizontal>
+     <vertical>0</vertical>
+    </internalposition>
+    <legendordering>
+     <legendorderingentry uuid="{9ee9c421-ab3c-4c14-aef4-7485d275badb}"/>
+     <legendorderingentry uuid="{b9de4ee8-ca5a-49e5-8205-0d4f238b8c19}"/>
+    </legendordering>
+    <autohiddenentries/>
+   </Legend>
+   <PlotCurve uuid="{9ee9c421-ab3c-4c14-aef4-7485d275badb}" type="ParametricCurve">
+    <EDIFile xmlHeader="&lt;!DOCTYPE FileMetaData>&#xa;&lt;Parameters>&#xa; &lt;File Type=&quot;Cut:Spherical&quot; Quantity=&quot;E&quot; Format=&quot;Ticra&quot; Object=&quot;spherical_cut&quot; Path=&quot;spherical_cut.cut&quot; FileOperation=&quot;Copy&quot; SubObject=&quot;unknown&quot;>&#xa;  &lt;Parameter Name=&quot;Frequency&quot; Unit=&quot;GHz&quot; Values=&quot; 36.0000000000000&quot;/>&#xa;  &lt;Parameter Name=&quot;Phi&quot; Unit=&quot;deg&quot; Values=&quot;[0.000000000000000E+000;90.0000000000000;3]&quot;/>&#xa;  &lt;Parameter Name=&quot;Theta&quot; Unit=&quot;deg&quot; Values=&quot;[-90.0000000000000;90.0000000000000;181]&quot;/>&#xa;  &lt;Scan Type=&quot;polar&quot;/>&#xa; &lt;/File>&#xa;&lt;/Parameters>&#xa;" treeContext="" name="Job_15/spherical_cut.cut"/>
+    <ChosenParameterList>
+     <ChosenParameter Prefix="" Id="FileGroup">
+      <Value String=""/>
+     </ChosenParameter>
+     <ChosenParameter Prefix="" Id="ParentFileGroup">
+      <Value String=""/>
+     </ChosenParameter>
+     <ChosenParameter Prefix="" Id="ConversionOptions">
+      <Value String="Magnitude [dB]"/>
+     </ChosenParameter>
+     <ChosenParameter Prefix="" Id="Frequency">
+      <Value Double="36" Unit="GHz"/>
+     </ChosenParameter>
+     <ChosenParameter Prefix="" Id="ProjectionComponents:Ludwig3">
+      <Value String="E_Lx"/>
+     </ChosenParameter>
+     <ChosenParameter Prefix="" Id="Phi">
+      <Value Double="45" Unit="deg"/>
+     </ChosenParameter>
+    </ChosenParameterList>
+    <Line color_r="0" color_g="0" color_b="0" color_a="255" width="2"/>
+    <Curve inverted="0" scalingFactorX="1" Offset="0" legendEntryVisible="1" z_value="19.100000000000001" fitted="0" visible="1" Offset_X="0" style="1" styleString="Lines" scalingFactor="1" y-axis-name="Magnitude" x-axis-name="θ"/>
+    <Axis y-axis="left" x-axis-unit="deg" y-axis-unit="dB" x-axis="bottom"/>
+    <Symbol size="5" style="-1" styleString="NoSymbol"/>
+    <Baseline color_r="0" baselineValue="0" color_g="0" baselineEnabled="0" color_b="0" color_a="255"/>
+    <Font data="MS Shell Dlg 2,8.25,-1,5,50,0,0,0,0,0"/>
+    <Legend text="%Full Title%"/>
+    <Parameter length="0" class="ConversionOptions" begin="0"/>
+    <Parameter length="0" class="Frequency" begin="0"/>
+    <Parameter length="0" class="Phi" begin="1"/>
+    <Parameter length="0" class="ProjectionComponents:Ludwig3" begin="0"/>
+    <Parameter length="181" class="Theta" begin="0"/>
+    <Format legacyFormat="0"/>
+    <FullSerializationParameters defaultTitle=""/>
+   </PlotCurve>
+   <PlotCurve uuid="{b9de4ee8-ca5a-49e5-8205-0d4f238b8c19}" type="ParametricCurve">
+    <EDIFile xmlHeader="&lt;!DOCTYPE FileMetaData>&#xa;&lt;Parameters>&#xa; &lt;File Type=&quot;Cut:Spherical&quot; Quantity=&quot;E&quot; Format=&quot;Ticra&quot; Object=&quot;spherical_cut&quot; Path=&quot;spherical_cut.cut&quot; FileOperation=&quot;Copy&quot; SubObject=&quot;unknown&quot;>&#xa;  &lt;Parameter Name=&quot;Frequency&quot; Unit=&quot;GHz&quot; Values=&quot; 36.0000000000000&quot;/>&#xa;  &lt;Parameter Name=&quot;Phi&quot; Unit=&quot;deg&quot; Values=&quot;[0.000000000000000E+000;90.0000000000000;3]&quot;/>&#xa;  &lt;Parameter Name=&quot;Theta&quot; Unit=&quot;deg&quot; Values=&quot;[-90.0000000000000;90.0000000000000;181]&quot;/>&#xa;  &lt;Scan Type=&quot;polar&quot;/>&#xa; &lt;/File>&#xa;&lt;/Parameters>&#xa;" treeContext="" name="Job_15/spherical_cut.cut"/>
+    <ChosenParameterList>
+     <ChosenParameter Prefix="" Id="FileGroup">
+      <Value String=""/>
+     </ChosenParameter>
+     <ChosenParameter Prefix="" Id="ParentFileGroup">
+      <Value String=""/>
+     </ChosenParameter>
+     <ChosenParameter Prefix="" Id="ConversionOptions">
+      <Value String="Magnitude [dB]"/>
+     </ChosenParameter>
+     <ChosenParameter Prefix="" Id="Frequency">
+      <Value Double="36" Unit="GHz"/>
+     </ChosenParameter>
+     <ChosenParameter Prefix="" Id="ProjectionComponents:Ludwig3">
+      <Value String="E_Ly"/>
+     </ChosenParameter>
+     <ChosenParameter Prefix="" Id="Phi">
+      <Value Double="45" Unit="deg"/>
+     </ChosenParameter>
+    </ChosenParameterList>
+    <Line color_r="0" color_g="0" color_b="255" color_a="255" width="2"/>
+    <Curve inverted="0" scalingFactorX="1" Offset="0" legendEntryVisible="1" z_value="20" fitted="0" visible="1" Offset_X="0" style="1" styleString="Lines" scalingFactor="1" y-axis-name="Magnitude" x-axis-name="θ"/>
+    <Axis y-axis="left" x-axis-unit="deg" y-axis-unit="dB" x-axis="bottom"/>
+    <Symbol size="5" style="-1" styleString="NoSymbol"/>
+    <Baseline color_r="0" baselineValue="0" color_g="0" baselineEnabled="0" color_b="0" color_a="255"/>
+    <Font data="MS Shell Dlg 2,8.25,-1,5,50,0,0,0,0,0"/>
+    <Legend text="%Full Title%"/>
+    <Parameter length="0" class="ConversionOptions" begin="0"/>
+    <Parameter length="0" class="Frequency" begin="0"/>
+    <Parameter length="0" class="Phi" begin="1"/>
+    <Parameter length="0" class="ProjectionComponents:Ludwig3" begin="1"/>
+    <Parameter length="181" class="Theta" begin="0"/>
+    <Format legacyFormat="0"/>
+    <FullSerializationParameters defaultTitle=""/>
+   </PlotCurve>
+   <Window isMaximized="0" normalX="35" isFullscreen="0" normalWidth="825" normalY="372" normalHeight="565" isMinimized="0"/>
+  </PlotWidget>
+  <PlotWidget type="ParametricCurve">
+   <Title text="%Curve_1_Job% → %Curve_1_Object%" font="MS Shell Dlg 2,14,-1,5,75,0,0,0,0,0"/>
+   <Axis inverted="0" fontLabel="MS Shell Dlg 2,12,-1,5,75,0,0,0,0,0" enabled="1" startAt="0" fontNumeral="MS Shell Dlg 2,10,-1,5,50,0,0,0,0,0" useMajor="1" spacing="2" id="0" maximum="22.011228863570629" useFixedStep="0" resetZoomBehaviour="RangeLimit" stepMajor="10" text="%Y-Left Title%" useMinor="0" minimum="-43.988771136429371" stepMinor="5" margin="0">
+    <PenMajor color_r="192" color_g="192" color_b="192" color_a="255" width="0" style="1" styleString="SolidLine"/>
+   </Axis>
+   <Axis inverted="0" fontLabel="MS Shell Dlg 2,12,-1,5,75,0,0,0,0,0" enabled="0" startAt="0" fontNumeral="MS Shell Dlg 2,10,-1,5,50,0,0,0,0,0" useMajor="0" spacing="2" id="1" maximum="1000" useFixedStep="0" resetZoomBehaviour="RangeLimit" stepMajor="10" text="%Y-Right Title%" useMinor="0" minimum="0" stepMinor="5" margin="0"/>
+   <Axis inverted="0" fontLabel="MS Shell Dlg 2,12,-1,5,75,0,0,0,0,0" enabled="1" startAt="0" fontNumeral="MS Shell Dlg 2,10,-1,5,50,0,0,0,0,0" useMajor="1" spacing="2" id="2" maximum="90" useFixedStep="0" resetZoomBehaviour="Regular" stepMajor="10" text="%X-Bottom Title%" useMinor="0" minimum="-90" stepMinor="5" margin="0">
+    <PenMajor color_r="192" color_g="192" color_b="192" color_a="255" width="0" style="1" styleString="SolidLine"/>
+   </Axis>
+   <Axis inverted="0" fontLabel="MS Shell Dlg 2,12,-1,5,75,0,0,0,0,0" enabled="0" startAt="0" fontNumeral="MS Shell Dlg 2,10,-1,5,50,0,0,0,0,0" useMajor="0" spacing="2" id="3" maximum="1000" useFixedStep="0" resetZoomBehaviour="Regular" stepMajor="10" text="%X-Top Title%" useMinor="0" minimum="0" stepMinor="5" margin="0"/>
+   <Canvas color_r="255" majorTickLength="8" axisLineWidth="0" frameAroundExported="1" color_g="255" color_b="255" color_a="255" minorTickLength="4"/>
+   <Grid/>
+   <Legend externalsizeratio="0.29999999999999999" maxcolumns="1" activelegend="1" bgmode="0" textwidthmargin="4" externalalignment="1" legendvisible="1">
+    <bgcolor color_r="255" color_g="255" color_b="255" color_a="255"/>
+    <borderpen color_r="160" color_g="160" color_b="164" color_a="255" width="1" style="1" styleString="SolidLine"/>
+    <internalposition>
+     <horizontal>1000000</horizontal>
+     <vertical>0</vertical>
+    </internalposition>
+    <legendordering>
+     <legendorderingentry uuid="{fef48ee3-f464-4497-b58e-89ecb841a37f}"/>
+     <legendorderingentry uuid="{3464760a-4a31-47a3-aa6b-fb09d055f23a}"/>
+    </legendordering>
+    <autohiddenentries/>
+   </Legend>
+   <PlotCurve uuid="{fef48ee3-f464-4497-b58e-89ecb841a37f}" type="ParametricCurve">
+    <EDIFile xmlHeader="&lt;!DOCTYPE FileMetaData>&#xa;&lt;Parameters>&#xa; &lt;File Type=&quot;Cut:Spherical&quot; Quantity=&quot;E&quot; Format=&quot;Ticra&quot; Object=&quot;spherical_cut&quot; Path=&quot;spherical_cut.cut&quot; FileOperation=&quot;Copy&quot; SubObject=&quot;unknown&quot;>&#xa;  &lt;Parameter Name=&quot;Frequency&quot; Unit=&quot;GHz&quot; Values=&quot; 36.0000000000000&quot;/>&#xa;  &lt;Parameter Name=&quot;Phi&quot; Unit=&quot;deg&quot; Values=&quot;[0.000000000000000E+000;90.0000000000000;3]&quot;/>&#xa;  &lt;Parameter Name=&quot;Theta&quot; Unit=&quot;deg&quot; Values=&quot;[-90.0000000000000;90.0000000000000;181]&quot;/>&#xa;  &lt;Scan Type=&quot;polar&quot;/>&#xa; &lt;/File>&#xa;&lt;/Parameters>&#xa;" treeContext="" name="Job_15/spherical_cut.cut"/>
+    <ChosenParameterList>
+     <ChosenParameter Prefix="" Id="FileGroup">
+      <Value String=""/>
+     </ChosenParameter>
+     <ChosenParameter Prefix="" Id="ParentFileGroup">
+      <Value String=""/>
+     </ChosenParameter>
+     <ChosenParameter Prefix="" Id="ConversionOptions">
+      <Value String="Magnitude [dB]"/>
+     </ChosenParameter>
+     <ChosenParameter Prefix="" Id="Frequency">
+      <Value Double="36" Unit="GHz"/>
+     </ChosenParameter>
+     <ChosenParameter Prefix="" Id="ProjectionComponents:Ludwig3">
+      <Value String="E_Lx"/>
+     </ChosenParameter>
+     <ChosenParameter Prefix="" Id="Phi">
+      <Value Double="0" Unit="deg"/>
+     </ChosenParameter>
+    </ChosenParameterList>
+    <Line color_r="0" color_g="0" color_b="0" color_a="255" width="2"/>
+    <Curve inverted="0" scalingFactorX="1" Offset="0" legendEntryVisible="1" z_value="19.100000000000001" fitted="0" visible="1" Offset_X="0" style="1" styleString="Lines" scalingFactor="1" y-axis-name="Magnitude" x-axis-name="θ"/>
+    <Axis y-axis="left" x-axis-unit="deg" y-axis-unit="dB" x-axis="bottom"/>
+    <Symbol size="5" style="-1" styleString="NoSymbol"/>
+    <Baseline color_r="0" baselineValue="0" color_g="0" baselineEnabled="0" color_b="0" color_a="255"/>
+    <Font data="MS Shell Dlg 2,8.25,-1,5,50,0,0,0,0,0"/>
+    <Legend text="%Full Title%"/>
+    <Parameter length="0" class="ConversionOptions" begin="0"/>
+    <Parameter length="0" class="Frequency" begin="0"/>
+    <Parameter length="0" class="Phi" begin="0"/>
+    <Parameter length="0" class="ProjectionComponents:Ludwig3" begin="0"/>
+    <Parameter length="181" class="Theta" begin="0"/>
+    <Format legacyFormat="0"/>
+    <FullSerializationParameters defaultTitle=""/>
+   </PlotCurve>
+   <PlotCurve uuid="{3464760a-4a31-47a3-aa6b-fb09d055f23a}" type="ParametricCurve">
+    <EDIFile xmlHeader="&lt;!DOCTYPE FileMetaData>&#xa;&lt;Parameters>&#xa; &lt;File Type=&quot;Cut:Spherical&quot; Quantity=&quot;E&quot; Format=&quot;Ticra&quot; Object=&quot;spherical_cut&quot; Path=&quot;spherical_cut.cut&quot; FileOperation=&quot;Copy&quot; SubObject=&quot;unknown&quot;>&#xa;  &lt;Parameter Name=&quot;Frequency&quot; Unit=&quot;GHz&quot; Values=&quot; 36.0000000000000&quot;/>&#xa;  &lt;Parameter Name=&quot;Phi&quot; Unit=&quot;deg&quot; Values=&quot;[0.000000000000000E+000;90.0000000000000;3]&quot;/>&#xa;  &lt;Parameter Name=&quot;Theta&quot; Unit=&quot;deg&quot; Values=&quot;[-90.0000000000000;90.0000000000000;181]&quot;/>&#xa;  &lt;Scan Type=&quot;polar&quot;/>&#xa; &lt;/File>&#xa;&lt;/Parameters>&#xa;" treeContext="" name="Job_15/spherical_cut.cut"/>
+    <ChosenParameterList>
+     <ChosenParameter Prefix="" Id="FileGroup">
+      <Value String=""/>
+     </ChosenParameter>
+     <ChosenParameter Prefix="" Id="ParentFileGroup">
+      <Value String=""/>
+     </ChosenParameter>
+     <ChosenParameter Prefix="" Id="ConversionOptions">
+      <Value String="Magnitude [dB]"/>
+     </ChosenParameter>
+     <ChosenParameter Prefix="" Id="Frequency">
+      <Value Double="36" Unit="GHz"/>
+     </ChosenParameter>
+     <ChosenParameter Prefix="" Id="ProjectionComponents:Ludwig3">
+      <Value String="E_Ly"/>
+     </ChosenParameter>
+     <ChosenParameter Prefix="" Id="Phi">
+      <Value Double="0" Unit="deg"/>
+     </ChosenParameter>
+    </ChosenParameterList>
+    <Line color_r="0" color_g="0" color_b="255" color_a="255" width="2"/>
+    <Curve inverted="0" scalingFactorX="1" Offset="0" legendEntryVisible="1" z_value="20" fitted="0" visible="1" Offset_X="0" style="1" styleString="Lines" scalingFactor="1" y-axis-name="Magnitude" x-axis-name="θ"/>
+    <Axis y-axis="left" x-axis-unit="deg" y-axis-unit="dB" x-axis="bottom"/>
+    <Symbol size="5" style="-1" styleString="NoSymbol"/>
+    <Baseline color_r="0" baselineValue="0" color_g="0" baselineEnabled="0" color_b="0" color_a="255"/>
+    <Font data="MS Shell Dlg 2,8.25,-1,5,50,0,0,0,0,0"/>
+    <Legend text="%Full Title%"/>
+    <Parameter length="0" class="ConversionOptions" begin="0"/>
+    <Parameter length="0" class="Frequency" begin="0"/>
+    <Parameter length="0" class="Phi" begin="0"/>
+    <Parameter length="0" class="ProjectionComponents:Ludwig3" begin="1"/>
+    <Parameter length="181" class="Theta" begin="0"/>
+    <Format legacyFormat="0"/>
+    <FullSerializationParameters defaultTitle=""/>
+   </PlotCurve>
+   <Window isMaximized="0" normalX="16" isFullscreen="0" normalWidth="825" normalY="28" normalHeight="602" isMinimized="0"/>
+  </PlotWidget>
+  <PlotStyleModel>
+   <DefaultPlotStyle name=""/>
+  </PlotStyleModel>
+  <GridStyleModel>
+   <DefaultPlotStyle name=""/>
+  </GridStyleModel>
+ </ResultWindows>
+ <WizardData/>
+ <view_configuration>
+  <view perspective_view="no" enable_phi_slider="no" maximized="yes" show_wire_grid="yes" enable_theta_slider="no" show_surfaces="yes" show_rulers="yes" locked_phi_theta="no" scale="4.08332" minimized="no" orientation_type="0" collapsed_view_settings_entries="" position="0.04791810736060143,0.04791810736060143,3.037508487701416" upVector="-0.3118042349815369,-0.1178508102893829,0.9428091049194336" viewCenter="-0.8339992165565491,-0.2854151725769043,2.704175710678101" enable_psi_slider="no" size="1441x934" pos="0x0" name="view_1"/>
+ </view_configuration>
+ <optimisation_configuration current_tab="Press 'New Manager' to create an optimisation manager"/>
+ <uq_configuration current_tab="Press 'New Manager' to create an uncertainty quantification manager"/>
+ <projectSettings/>
+</Project>
